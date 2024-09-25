@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+@import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
@@ -1336,40 +1336,36 @@ input, select, textarea {
 			}
 
 		#header nav ul {
-			display: flex; /* Use flex for proper box alignment */
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
-			justify-content: space-evenly; /* Distribute the space evenly */
-			width: 100%; /* Ensure it fills the entire width */
 		}
-			
 
 			#header nav ul li {
-				display: flex; /* Use flex for flexible box layouts */
-				flex: 1; /* Grow to fill the space equally */
-				box-sizing: border-box;
-				margin: 0;
+				padding-left: 0;
 				border-left: solid 1px #ffffff;
 			}
 
 				#header nav ul li:first-child {
-					border-left: 0; /* Remove border from the first item */
+					border-left: 0;
 				}
 
 				#header nav ul li a {
-					box-sizing: border-box;
-					padding: 0.5em 1em;
-					text-decoration: none;
-					display: inline-flex; /* Use inline-flex to center items */
-					align-items: center; /* Vertically center text */
-					justify-content: center; /* Horizontally center text */
-					width: 100%;
-					height: 100%; /* Ensure it fills the box height */
-					text-align: center;
-					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+					display: block;
+					min-width: 7.5rem;
+					height: 2.75rem;
+					line-height: 2.75rem;
+					padding: 0 1.25rem 0 1.45rem;
+					text-transform: uppercase;
+					letter-spacing: 0.2rem;
+					font-size: 0.8rem;
+					border-bottom: 0;
 				}
 
 					#header nav ul li a:hover {

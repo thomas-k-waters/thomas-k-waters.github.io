@@ -91,8 +91,18 @@ input, select, textarea {
 	}
 
 	*, *:before, *:after {
-		box-sizing: inherit;
+		box-sizing: border-box;
 	}
+
+	/* Adjust the button styles */
+	button {
+		width: 100%; /* Ensure the button takes up the full width of its container */
+		padding: 10px; /* Adjust padding as needed */
+		margin: 0; /* Reset margin */
+		border: none; /* Remove default border */
+		overflow: hidden; /* Prevent overflow */
+	}
+	/* new stuff above */
 
 	body {
 		background: #1b1f22;
@@ -1366,14 +1376,17 @@ input, select, textarea {
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+					overflow: hidden; /* Prevents text wrapping NEW */
 				}
 
 					#header nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
+						overflow: hidden; /* Prevents text wrapping NEW */
 					}
 
 					#header nav ul li a:active {
 						background-color: rgba(255, 255, 255, 0.175);
+						overflow: hidden; /* Prevents text wrapping NEW */
 					}
 
 		#header nav.use-middle:after {

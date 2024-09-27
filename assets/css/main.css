@@ -83,6 +83,8 @@ input, select, textarea {
 .custom-icon {
     width: 18px !important;
     height: 18px !important;
+	display: block; /* Ensure it is treated as a block-level element */
+    vertical-align: middle; 
 }
 
 /* Basic */

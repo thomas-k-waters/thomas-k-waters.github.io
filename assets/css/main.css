@@ -72,6 +72,19 @@ input, select, textarea {
 	appearance: none;
 }
 
+.custom-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1em;
+    height: 1em;
+}
+
+.custom-icon {
+    width: 100%;
+    height: 100%;
+}
+
 /* Basic */
 
 	@-ms-viewport {

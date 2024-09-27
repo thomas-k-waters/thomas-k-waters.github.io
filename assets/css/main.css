@@ -1359,7 +1359,7 @@ input, select, textarea {
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 0.75rem 0 1.35rem; /* button size*/
+					padding: 0 1.35rem 0 1.35rem; /* button size*/
 					text-transform: uppercase;
 					text-align: center; /* added this */
 					width: 100%; /* added this */

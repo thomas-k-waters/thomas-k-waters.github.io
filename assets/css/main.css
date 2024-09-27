@@ -1373,7 +1373,8 @@ input, select, textarea {
 					min-width: 9.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 3.75rem 0 3.75rem;
+					padding: 0 1.75rem 0 1.75rem;
+					box-sizing: border-box;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
@@ -1493,7 +1494,7 @@ input, select, textarea {
 					min-width: 3.5rem;
 					min-height: 3.5rem;
 				}
-				
+
 				#header .logo object {
 					width: 3rem;
 					height: auto;
@@ -1522,10 +1523,14 @@ input, select, textarea {
 						}
 
 						#header nav ul li a {
+							/* 
 							height: 3rem;
 							line-height: 3rem;
 							min-width: 0;
 							width: 100%;
+							*/
+							padding: 0 1.5rem; /* Adjust padding to make the boxes longer */
+    						box-sizing: border-box; /* Ensure padding is included in the width */					
 						}
 
 				#header nav.use-middle:after {

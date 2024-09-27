@@ -347,7 +347,6 @@ input, select, textarea {
 				form > .fields > .field.quarter {
 					width: calc(25% - 0.375rem);
 				}
-				
 
 		@media screen and (max-width: 480px) {
 
@@ -1025,7 +1024,7 @@ input, select, textarea {
 		letter-spacing: 0.2rem;
 		line-height: 2.75rem;
 		outline: 0;
-		padding: 0 1.5rem 0 1.5rem;
+		padding: 0 1.25rem 0 1.35rem;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -1347,7 +1346,6 @@ input, select, textarea {
 
 			#header nav ul li {
 				padding-left: 0;
-				flex: 1; /* added this */
 				border-left: solid 1px #ffffff;
 			}
 
@@ -1360,10 +1358,8 @@ input, select, textarea {
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.35rem 0 1.35rem; /* button size*/
+					padding: 0 1.rem 0 1.45rem;
 					text-transform: uppercase;
-					text-align: center; /* added this */
-					width: 100%; /* added this */
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;

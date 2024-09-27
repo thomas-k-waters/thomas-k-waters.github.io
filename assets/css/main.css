@@ -1292,9 +1292,9 @@ input, select, textarea {
 
 		#header .logo {
 			display: block;
-			width: 5.5rem;
-			height: 3.5rem;
-			line-height: 5.5rem;
+			width: 88px;
+			height: 56px;
+			line-height: 88px;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}

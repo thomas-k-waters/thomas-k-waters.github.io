@@ -347,18 +347,7 @@ input, select, textarea {
 				form > .fields > .field.quarter {
 					width: calc(25% - 0.375rem);
 				}
-				/* ################# */
-				.tabs {
-					overflow: hidden; /* or overflow: auto; */
-				}
-
-				.tabs a {
-					overflow: hidden; /* or overflow: auto; */
-					white-space: nowrap; /* Prevents text from wrapping */
-					text-overflow: ellipsis; /* Adds ellipsis (...) for overflowed text */
-				}
-
-				/* ################# */
+				
 
 		@media screen and (max-width: 480px) {
 

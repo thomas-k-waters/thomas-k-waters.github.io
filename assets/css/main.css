@@ -1370,7 +1370,8 @@ input, select, textarea {
 
 				#header nav ul li a {
 					display: block;
-					min-width: 14rem;
+					min-width: 12rem;
+					width: 12rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.75rem 0 1.75rem;
@@ -1523,8 +1524,8 @@ input, select, textarea {
 						}
 
 						#header nav ul li a {
-							min-width: 14rem;
-							width: 100%;
+							min-width: 12rem;
+							width: 12rem;
 							padding: 0 1.75rem; /* Adjust padding to make the boxes longer */
     						box-sizing: border-box; /* Ensure padding is included in the width */					
 						}

@@ -1301,6 +1301,18 @@ input, select, textarea {
 			border-radius: 100%;
 		}
 		
+		#header .logo {
+			display: flex;               
+			justify-content: center;     
+			align-items: center;         
+			width: 88px;                
+			height: 56px; 
+			min-width: 88px;
+			min-height: 56px;             
+			border: solid 1px #ffffff;
+			border-radius: 100%;          
+		}
+		
 		#header .logo object {
 			width: 80px;
 			height: 32.48px;

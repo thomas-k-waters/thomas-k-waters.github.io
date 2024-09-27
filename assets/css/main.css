@@ -1290,16 +1290,6 @@ input, select, textarea {
 				display: none;
 			}
 
-		#header .logo {
-			display: block;
-			width: 88px;
-			height: 56px;
-			line-height: 88px;
-			min-width: 88px;
-			min-height: 56px;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
-		}
 		
 		#header .logo {
 			display: flex;               
@@ -1312,7 +1302,7 @@ input, select, textarea {
 			border: solid 1px #ffffff;
 			border-radius: 100%;          
 		}
-		
+
 		#header .logo object {
 			width: 80px;
 			height: 32.48px;
@@ -1463,10 +1453,19 @@ input, select, textarea {
 				}
 
 			#header .logo {
+				display: flex;
+				justify-content: center;
+				align-items: center;
 				width: 4.75rem;
 				height: 4.75rem;
-				line-height: 4.75rem;
+				min-width: 4.75rem;
+				min-height: 4.75rem;
+				border-radius: 50%;
 			}
+				#header .logo object {
+					width: 4rem;
+					height: auto;
+				}
 
 				#header .logo .icon:before {
 					font-size: 1.75rem;
@@ -1487,6 +1486,18 @@ input, select, textarea {
 			#header {
 				padding: 1.5rem 0;
 			}
+
+				#header .logo {
+					width: 3.5rem;
+					height: 3.5rem;
+					min-width: 3.5rem;
+					min-height: 3.5rem;
+				}
+				
+				#header .logo object {
+					width: 3rem;
+					height: auto;
+				}
 
 				#header .content .inner {
 					padding: 2.5rem 0;

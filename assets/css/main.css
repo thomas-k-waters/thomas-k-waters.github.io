@@ -1583,7 +1583,7 @@ input, select, textarea {
 		position: relative;
 		max-width: 100%;
 		z-index: 3;
-		padding-bottom: 10rem !important;
+		padding-bottom: 30rem;
 	}
 
 		#main article {
@@ -1595,7 +1595,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
 			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-			padding: 3rem 1.5rem 0.5rem 1.5rem !important ;
+			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
@@ -1681,41 +1681,40 @@ input, select, textarea {
 	/* Footer */
 
 	#footer {
-		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out !important;
-		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out !important;
-		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out !important;
-		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out !important;
-		width: 100% !important;
-		max-width: 100% !important;
-		position: fixed !important; /* Fix the footer at the bottom */
-		bottom: 0 !important; /* Align to the bottom */
-		text-align: right !important; /* Align text to the right */
-		padding: 0.5rem !important; /* Adjust padding for better spacing */
-		opacity: 0.5 !important; /* Make the footer slightly transparent */
-		height: 2.5rem !important; /* Set a fixed height for the footer */
+		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+		width: 100%;
+		max-width: 100%; 
+		bottom: 0; /* Align to the bottom */
+		text-align: right; /* Align text to the right */
+		padding: 0.5rem; /* Adjust padding for better spacing */
+		opacity: 0.5; /* Make the footer slightly transparent */
+		height: 2.5rem; /* Set a fixed height for the footer */
 	}
 
-	#footer .copyright {
-		letter-spacing: 0.03rem !important;
-		font-size: 0.8rem !important; /* Make the text smaller but visible */
-		opacity: 0.5 !important; /* Add an alpha value of 0.5 */
-		margin-bottom: 0 !important;
-		color: #a6a4a4 !important;
-		text-transform: uppercase !important;
-	}
-	
+		#footer .copyright {
+			letter-spacing: 0.03rem;
+			font-size: 0.8rem; /* Make the text smaller but visible */
+			opacity: 0.5; /* Add an alpha value of 0.5 */
+			margin-bottom: 0;
+			color: #a6a4a4;
+			text-transform: uppercase;
+		}
+
 	body.is-article-visible #footer {
-		-moz-transform: scale(0.95) !important;
-		-webkit-transform: scale(0.95) !important;
-		-ms-transform: scale(0.95) !important;
-		transform: scale(0.95) !important;
-		-moz-filter: blur(0.1rem) !important;
-		-webkit-filter: blur(0.1rem) !important;
-		-ms-filter: blur(0.1rem) !important;
-		filter: blur(0.1rem) !important;
-		opacity: 0 !important;
+		-moz-transform: scale(0.95);
+		-webkit-transform: scale(0.95);
+		-ms-transform: scale(0.95);
+		transform: scale(0.95);
+		-moz-filter: blur(0.1rem);
+		-webkit-filter: blur(0.1rem);
+		-ms-filter: blur(0.1rem);
+		filter: blur(0.1rem);
+		opacity: 0;
 	}
-	
+
 	body.is-preload #footer {
-		opacity: 0 !important;
+		opacity: 0;
 	}

@@ -922,7 +922,7 @@ input, select, textarea {
 				align-items: center; /* Center items vertically */
 				justify-content: center; /* Center items horizontally */
 			}
-			
+
 			.custom-icon-container {
 				display: flex;
 				align-items: center;
@@ -934,7 +934,7 @@ input, select, textarea {
 			.custom-icon {
 				width: 18px !important;
 				height: 18px !important;
-				display: block !important; /* Ensure it is treated as a block-level element */
+				display: flex !important; /* Ensure it is treated as a block-level element */
 			}
 
 				ul.icons li a:hover {

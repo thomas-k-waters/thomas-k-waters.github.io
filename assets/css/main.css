@@ -1694,14 +1694,15 @@ input, select, textarea {
 			width: auto;
 			margin-right: 20px; /* Adjust as needed */
 			margin-bottom: 20px; /* Adjust as needed */
+			padding-top: 500px; /* Add padding above the footer */
 		}
 		
 		.credit {
 			font-size: 0.75em; /* Smaller font size */
-			color: rgba(0, 0, 0, 0.5); /* Slightly transparent text */
+			color: rgba(255, 255, 255, 0.5); /* Slightly transparent text */
 		
 		}
-		
+
 		#footer .copyright {
 			letter-spacing: 0.2rem;
 			font-size: 0.6rem;

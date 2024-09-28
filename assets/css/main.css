@@ -1693,7 +1693,6 @@ input, select, textarea {
 		padding: 0.5rem; /* Adjust padding for better spacing */
 		opacity: 0.5; /* Make the footer slightly transparent */
 		height: 2.5rem; /* Set a fixed height for the footer */
-		margin-top: 20rem; /* Remove default margin */
 	}
 
 		#footer .copyright {

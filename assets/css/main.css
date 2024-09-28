@@ -1583,7 +1583,7 @@ input, select, textarea {
 		position: relative;
 		max-width: 100%;
 		z-index: 3;
-		padding-bottom: 3rem;
+		padding-bottom: 30rem;
 	}
 
 		#main article {

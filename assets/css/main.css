@@ -36,6 +36,15 @@ ol, ul {
 	list-style: none;
 }
 
+blockquote, q {
+	quotes: none;
+}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -562,6 +571,10 @@ input, select, textarea {
 		opacity: 1.0;
 	}
 
+	.formerize-placeholder {
+		color: rgba(255, 255, 255, 0.5) !important;
+		opacity: 1.0;
+	}
 
 /* Box */
 
@@ -1663,8 +1676,32 @@ input, select, textarea {
 
 /* Footer */
 
+	#footer {
+		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+		width: 100%;
+		max-width: 100%;
+		position: fixed; /* Fix the footer at the bottom */
+		bottom: 0; /* Align to the bottom */
+		text-align: right; /* Align text to the right */
+		padding: 0.5rem; /* Adjust padding for better spacing */
+		opacity: 0.5; /* Make the footer slightly transparent */
+		height: 2.5rem; /* Set a fixed height for the footer */
+
+	}
 		#main-content {
 			padding-bottom: 300rem; /* Add padding to the bottom of the main content */
+		}
+
+		#footer .copyright {
+			letter-spacing: 0.03rem;
+			font-size: 0.1rem; /* Make the text smaller */
+			opacity: 0.5; /* Add an alpha value of 0.5 */
+			margin-bottom: 0;
+			color: #a6a4a4;
+			text-transform: uppercase;
 		}
 
 		body.is-article-visible #footer {

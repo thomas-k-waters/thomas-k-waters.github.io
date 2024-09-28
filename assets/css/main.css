@@ -1693,7 +1693,7 @@ input, select, textarea {
 
 	}
 		#main-content {
-			padding-bottom: 30rem; /* Add padding to the bottom of the main content */
+			padding-bottom: 300rem; /* Add padding to the bottom of the main content */
 		}
 
 		#footer .copyright {
@@ -1701,6 +1701,7 @@ input, select, textarea {
 			font-size: 0.3rem; /* Make the text smaller */
 			opacity: 0.5; /* Add an alpha value of 0.5 */
 			margin-bottom: 0;
+			color: #a6a4a4;
 			text-transform: uppercase;
 		}
 

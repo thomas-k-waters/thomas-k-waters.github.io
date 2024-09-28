@@ -1692,15 +1692,15 @@ input, select, textarea {
 		padding: 0.5rem; /* Adjust padding for better spacing */
 		opacity: 0.5; /* Make the footer slightly transparent */
 		height: 0.5rem; /* Set a fixed height for the footer */
-		padding-top: 20rem;
+		padding-top: 10rem;
 	}
 
 		#footer .copyright {
 			letter-spacing: 0.03rem;
-			font-size: 0.8rem; /* Make the text smaller but visible */
+			font-size: 0.375rem; /* Make the text smaller but visible */
 			opacity: 0.5; /* Add an alpha value of 0.5 */
 			margin-bottom: 0;
-			color: #a6a4a4;
+			color: #5a5a5a;
 			text-transform: uppercase;
 		}
 

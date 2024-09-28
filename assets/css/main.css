@@ -1684,14 +1684,15 @@ input, select, textarea {
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		width: 100%;
 		max-width: 100%;
-		margin-top: 2rem;
-		text-align: center;
+		margin-top: auto; /* Push the footer to the bottom */
+		text-align: right; /* Align text to the right */
+		padding: 1rem; /* Add some padding for better spacing */
 	}
 
 		#footer .copyright {
 			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
-			opacity: 0.75;
+			font-size: 0.5rem; /* Make the text smaller */
+			opacity: 0.5; /* Add an alpha value of 0.5 */
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}

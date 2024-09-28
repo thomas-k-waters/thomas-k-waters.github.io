@@ -896,16 +896,19 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
-		cursor: default;
-		list-style: none;
-		padding-left: 0;
+		display: flex;  /* Use Flexbox for layout */
+		align-items: center; /* Center items vertically */
+		justify-content: center; /* Center items horizontally if needed */
+		list-style: none; /* Remove default list styling */
+		padding: 0; /* Remove default list padding */
+		margin: 0; /* Remove default list margin */
 	}
 
 		ul.icons li {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			margin: 0;
+			margin: 0 0.75rem;
 			padding: 0;
 		}
 

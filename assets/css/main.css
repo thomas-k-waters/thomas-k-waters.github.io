@@ -1684,9 +1684,11 @@ input, select, textarea {
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		width: 100%;
 		max-width: 100%;
-		margin-top: auto; /* Push the footer to the bottom */
+		position: fixed; /* Fix the footer at the bottom */
+		bottom: 0; /* Align to the bottom */
 		text-align: right; /* Align text to the right */
-		padding: 1rem; /* Add some padding for better spacing */
+		padding: 0.5rem; /* Adjust padding for better spacing */
+		opacity: 0.5; /* Make the footer slightly transparent */
 	}
 
 		#footer .copyright {

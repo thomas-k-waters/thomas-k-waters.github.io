@@ -1583,7 +1583,7 @@ input, select, textarea {
 		position: relative;
 		max-width: 100%;
 		z-index: 3;
-		padding-bottom: 30rem !important;
+		padding-bottom: 10rem !important;
 	}
 
 		#main article {
@@ -1693,6 +1693,7 @@ input, select, textarea {
 		padding: 0.5rem; /* Adjust padding for better spacing */
 		opacity: 0.5; /* Make the footer slightly transparent */
 		height: 2.5rem; /* Set a fixed height for the footer */
+		margin-top: 20rem; /* Remove default margin */
 	}
 
 		#footer .copyright {

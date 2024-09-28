@@ -155,6 +155,8 @@ input, select, textarea {
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
+		display: block; /* Ensure the margin applies correctly */
+    	margin-bottom: 30rem;
 	}
 
 		a:hover {
@@ -1396,7 +1398,8 @@ input, select, textarea {
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
-					border-bottom: 0;
+					border-bottom: 0
+					margin-bottom: 30rem;
 				}
 
 					#header nav ul li a:hover {
@@ -1583,7 +1586,6 @@ input, select, textarea {
 		position: relative;
 		max-width: 100%;
 		z-index: 3;
-		padding-bottom: 30rem;
 	}
 
 		#main article {

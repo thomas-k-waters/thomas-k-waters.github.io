@@ -1687,7 +1687,21 @@ input, select, textarea {
 		margin-top: 2rem;
 		text-align: center;
 	}
-
+		#footer {
+			position: fixed;
+			bottom: 0;
+			right: 0;
+			width: auto;
+			margin-right: 20px; /* Adjust as needed */
+			margin-bottom: 20px; /* Adjust as needed */
+		}
+		
+		.credit {
+			font-size: 0.75em; /* Smaller font size */
+			color: rgba(0, 0, 0, 0.5); /* Slightly transparent text */
+		
+		}
+		
 		#footer .copyright {
 			letter-spacing: 0.2rem;
 			font-size: 0.6rem;

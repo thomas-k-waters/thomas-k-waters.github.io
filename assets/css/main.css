@@ -1595,10 +1595,10 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;
 			-ms-transition: opacity 1s ease-in-out, -ms-transform 1s ease-in-out;
 			transition: opacity 1s ease-in-out, transform 1s ease-in-out;
-			-moz-transition-delay: 0.25s;
-			-webkit-transition-delay: 0.25s;
-			-ms-transition-delay: 0.25s;
-			transition-delay: 0.25s;
+			-moz-transition-delay: 0.5s;
+			-webkit-transition-delay: 0.5s;
+			-ms-transition-delay: 0.5s;
+			transition-delay: 0.5s;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
 			width: 40rem;

@@ -194,8 +194,8 @@ input, select, textarea {
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-			padding-bottom: 20rem;
-			margin: 0 0 2rem 0;
+			padding-bottom: 0.5rem;
+			margin: 0 0 20rem 0;
 		}
 
 	h1 {

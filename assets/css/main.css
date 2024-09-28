@@ -1688,21 +1688,6 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#footer {
-			position: fixed;
-			bottom: 0;
-			right: 0;
-			width: auto;
-			margin-right: 20px; /* Adjust as needed */
-			margin-bottom: 20px; /* Adjust as needed */
-			padding-top: 500px; /* Add padding above the footer */
-		}
-
-		.credit {
-			font-size: 0.75em; /* Smaller font size */
-			color: rgba(255, 255, 255, 0.5); /* Slightly transparent text */
-		}
-
 		#footer .copyright {
 			letter-spacing: 0.2rem;
 			font-size: 0.6rem;
@@ -1725,9 +1710,4 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
-		}
-
-		/* Add padding to the bottom of the body to create space for the footer */
-		body {
-			padding-bottom: 1000px; /* Adjust the value as needed */
 		}

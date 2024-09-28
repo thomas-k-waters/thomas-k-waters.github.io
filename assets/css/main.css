@@ -1689,9 +1689,11 @@ input, select, textarea {
 		text-align: right; /* Align text to the right */
 		padding: 0.5rem; /* Adjust padding for better spacing */
 		opacity: 0.5; /* Make the footer slightly transparent */
+		height: 2.5rem; /* Set a fixed height for the footer */
+
 	}
 		#main-content {
-			padding-bottom: 3rem; /* Add padding to the bottom of the main content */
+			padding-bottom: 30rem; /* Add padding to the bottom of the main content */
 		}
 
 		#footer .copyright {

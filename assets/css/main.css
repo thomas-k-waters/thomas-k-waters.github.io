@@ -923,7 +923,10 @@ input, select, textarea {
 				width: 2.25rem;
 				height: 2.25rem;
 				border-radius: 50%; /* Make sure to match the circular icon style */
+				overflow: hidden;
 				box-shadow: inset 0 0 0 1px #ffffff;
+				margin: 0;
+				padding: 0;
 			}
 			
 			.custom-icon {

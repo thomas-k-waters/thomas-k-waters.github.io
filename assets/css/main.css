@@ -1674,7 +1674,6 @@ input, select, textarea {
 
 		}
 
-
 /* Footer */
 
 	#footer {
@@ -1692,9 +1691,13 @@ input, select, textarea {
 		height: 2.5rem; /* Set a fixed height for the footer */
 
 	}
+		#main-content {
+			padding-bottom: 300rem; /* Add padding to the bottom of the main content */
+		}
+
 		#footer .copyright {
-			letter-spacing: 0.03rem !important;
-			font-size: 0.1rem !important; /* Make the text smaller */
+			letter-spacing: 0.03rem;
+			font-size: 0.1rem; /* Make the text smaller */
 			opacity: 0.5; /* Add an alpha value of 0.5 */
 			margin-bottom: 0;
 			color: #a6a4a4;

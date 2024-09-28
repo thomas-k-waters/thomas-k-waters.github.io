@@ -1583,6 +1583,7 @@ input, select, textarea {
 		position: relative;
 		max-width: 100%;
 		z-index: 3;
+		padding-bottom: 3rem;
 	}
 
 		#main article {
@@ -1694,18 +1695,14 @@ input, select, textarea {
 		height: 2.5rem; /* Set a fixed height for the footer */
 	}
 
-	#main-content {
-		padding-bottom: 3rem; /* Add padding to the bottom of the main content */
-	}
-
-	#footer .copyright {
-		letter-spacing: 0.03rem;
-		font-size: 0.8rem; /* Make the text smaller but visible */
-		opacity: 0.5; /* Add an alpha value of 0.5 */
-		margin-bottom: 0;
-		color: #a6a4a4;
-		text-transform: uppercase;
-	}
+		#footer .copyright {
+			letter-spacing: 0.03rem;
+			font-size: 0.8rem; /* Make the text smaller but visible */
+			opacity: 0.5; /* Add an alpha value of 0.5 */
+			margin-bottom: 0;
+			color: #a6a4a4;
+			text-transform: uppercase;
+		}
 
 	body.is-article-visible #footer {
 		-moz-transform: scale(0.95);

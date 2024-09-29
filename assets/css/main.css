@@ -1720,3 +1720,19 @@ input, select, textarea {
 	body.is-preload #footer {
 		opacity: 0;
 	}
+	/* MathJax styles */
+	mjx-container[jax="CHTML"] {
+		font-family: inherit !important;
+		font-size: inherit !important;
+		line-height: inherit !important;
+		color: inherit !important;
+	}
+
+	mjx-container[jax="CHTML"] .mjx-math {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	mjx-container[jax="CHTML"] .mjx-merror {
+		color: red; /* Style for error messages */
+	}

@@ -5166,3 +5166,9 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		math, mn, mo, msup, mrow {
+			font-family: inherit;
+			font-weight: inherit;
+			display: inline;
+		}

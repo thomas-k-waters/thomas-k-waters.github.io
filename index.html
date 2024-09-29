@@ -263,7 +263,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-	<script type="text/javascript">
+    <script type="text/javascript">
         window.MathJax = {
             tex: {
                 inlineMath: [['\\(', '\\)'], ['$', '$']],
@@ -272,7 +272,8 @@
             chtml: {
                 scale: 1, // Adjust the scale to match the surrounding text size
                 mtextInheritFont: true, // Inherit font from surrounding text
-                merrorInheritFont: true // Inherit font for error messages
+                merrorInheritFont: true, // Inherit font for error messages
+                mtextFont: 'inherit' // Ensure MathJax uses the inherited font
             }
         };
     </script>

@@ -5192,3 +5192,12 @@ input, select, textarea {
 		mjx-container[jax="CHTML"] .mjx-merror {
 			color: red; /* Style for error messages */
 		}
+
+		/* More specific selectors */
+		mjx-container[jax="CHTML"] .mjx-char, 
+		mjx-container[jax="CHTML"] .mjx-math, 
+		mjx-container[jax="CHTML"] .mjx-merror {
+			font-family: "Source Sans Pro", sans-serif !important;
+			font-weight: 300 !important; /* Set font weight explicitly */
+			font-style: normal !important; /* Set font style explicitly */
+		}

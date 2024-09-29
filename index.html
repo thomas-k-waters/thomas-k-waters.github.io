@@ -264,20 +264,19 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script type="text/javascript">
-        window.MathJax = {
-            tex: {
-                inlineMath: [['\\(', '\\)'], ['$', '$']],
-                displayMath: [['\\[', '\\]'], ['$$', '$$']]
-            },
-            chtml: {
-                scale: 1, // Adjust the scale to match the surrounding text size
-                // mtextInheritFont: true, // Inherit font from surrounding text
-                // merrorInheritFont: true, // Inherit font for error messages
-                // mtextFont: 'inherit' // Ensure MathJax uses the inherited font
-            }
-        };
-    </script>
+	<script type="text/javascript">
+		window.MathJax = {
+			tex: {
+				inlineMath: [['\\(', '\\)'], ['$', '$']],
+				displayMath: [['\\[', '\\]'], ['$$', '$$']]
+			},
+			chtml: {
+				scale: 1, // Adjust the scale to match the surrounding text size
+				font: 'inherit', // Inherit font settings from surrounding text
+				// Automatically inherit font and style settings if available
+			}
+		};
+	</script>
 	<script type="text/javascript" id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 </body>

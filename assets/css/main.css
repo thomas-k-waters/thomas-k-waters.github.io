@@ -5180,6 +5180,7 @@ input, select, textarea {
 		mjx-container[jax="CHTML"] .mjx-char {
 			font-family: "Source Sans Pro", sans-serif !important;
 			font-weight: 300 !important; /* Set font weight explicitly */
+			font-style: normal !important; /* Set font style explicitly */
 		}
 
 		mjx-container[jax="CHTML"] .mjx-math {

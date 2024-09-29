@@ -1726,6 +1726,7 @@ input, select, textarea {
 		font-size: inherit !important;
 		line-height: inherit !important;
 		color: inherit !important;
+		font-weight: inherit !important; /* Ensure font weight is inherited */
 	}
 
 	mjx-container[jax="CHTML"] .mjx-math {

@@ -5170,5 +5170,4 @@ input, select, textarea {
 		math, mn, mo, msup, mrow {
 			font-family: inherit;
 			font-weight: inherit;
-			display: inline;
 		}

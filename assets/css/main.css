@@ -1720,7 +1720,8 @@ input, select, textarea {
 	body.is-preload #footer {
 		opacity: 0;
 	}
-    /* MathJax styles */
+	
+	/* MathJax styles */
 	mjx-container[jax="CHTML"] {
 		font-family: inherit !important;
 		font-size: inherit !important;
@@ -1730,11 +1731,16 @@ input, select, textarea {
 		font-style: inherit !important; /* Ensure font style is inherited */
 	}
 
-    mjx-container[jax="CHTML"] .mjx-math {
-        display: inline-block;
-        vertical-align: middle;
-    }
+	mjx-container[jax="CHTML"] .mjx-char {
+		font-weight: inherit !important; /* Ensure font weight is inherited */
+	}
 
-    mjx-container[jax="CHTML"] .mjx-merror {
-        color: red; /* Style for error messages */
-    }
+	mjx-container[jax="CHTML"] .mjx-math {
+		display: inline-block;
+		vertical-align: middle;
+		font-weight: inherit !important; /* Ensure font weight is inherited */
+	}
+
+	mjx-container[jax="CHTML"] .mjx-merror {
+		color: red; /* Style for error messages */
+	}

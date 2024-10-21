@@ -5166,10 +5166,36 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
-
-		math, mn, mo, msup, mrow {
-			font-family: inherit;
-			font-weight: inherit;
-		}
-
 		
+		math, mn, mo, msup, mrow {
+			font-family: inherit !important;
+			font-weight: 300 !important;
+			font-style: normal !important;
+		}
+		
+		.figure-container {
+			background-color: #ffffff; /* Lighter color than the background */
+			padding: 5px;
+			border-radius: 8px;
+			text-align: center;
+			max-width: 100%; 
+			height: auto;
+			max-height: 100%;
+			margin: 10px auto; /* Center the container */
+		}
+		
+		.figure-container img {
+			max-width: 100%;
+			height: auto;
+			max-height: 100%;
+			display: block;
+			margin: 0 auto;
+		}
+		
+		.figure-container figcaption {
+			margin-top: 0;
+			padding: 5px;
+			color: #000000; /* Set text color to black */
+			text-align: left; /* Center justify the text */
+			display: block; /* Ensure it's a block element */
+		}

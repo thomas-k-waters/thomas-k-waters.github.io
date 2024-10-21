@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="347.39499mm"
+   height="199.342mm"
+   viewBox="0 0 347.39499 199.342"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="47.385223"
+       y="267.38803"
+       width="1465.5573"
+       height="1242.1698"
+       id="rect3" />
+    <rect
+       x="16.923294"
+       y="74.462494"
+       width="1387.7101"
+       height="1106.7834"
+       id="rect2" />
+  </defs>
+  <g
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);opacity:0.5;fill:#ff0000"><tspan
+         x="16.923828"
+         y="85.410854"
+         id="tspan1">CV</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-26.066832,-116.67657)"
+       id="text3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1000px;font-family:'Geeza Pro';-inkscape-font-specification:'Geeza Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);opacity:1;fill:#ffffff"><tspan
+         x="47.384766"
+         y="1179.719"
+         id="tspan2">CV</tspan></text>
+  </g>
+</svg>

@@ -5182,6 +5182,7 @@ input, select, textarea {
 			height: auto;
 			max-height: 100%;
 			margin: 10px auto; /* Center the container */
+			margin-bottom: 20px; /* Add some space between the images */
 		}
 		
 		.figure-container img {
